@@ -1,0 +1,31 @@
+body {
+  background-color: #141414;
+  font-size: 20px;
+  margin: 0;
+}
+
+.all-questions-box {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.all-questions {
+  color: #e5e5e5;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .one-question, .all-questions {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .all-questions-box {
+    padding-top: 30px;
+  }
+}

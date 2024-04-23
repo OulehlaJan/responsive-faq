@@ -1,0 +1,49 @@
+.one-question {
+    box-shadow: 0px 0px 10px #e50914;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.one-question section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one-question h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    width: 100vh;
+}
+
+.one-question button {
+    height: 40px;
+    margin-right: 50px;
+    color: #e5e5e5;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.one-question button:hover {
+    background-color: #b30311;
+}
+
+.one-question p {
+    margin: 0px 50px 10px;
+}
+
+@media (max-width: 800px) {
+  .one-question h2, .one-question p, .one-question button {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
