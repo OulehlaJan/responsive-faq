@@ -78,8 +78,6 @@ A quick look at the structure of this project.
     │   ├───components
     │   │    ├───Question.css
     │   │    └───Question.js
-    │   ├───images
-    │   │    └───netflix.png
     │   ├───App.js
     │   ├───data.js
     │   ├───index.css
